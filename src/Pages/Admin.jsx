@@ -6,7 +6,7 @@ const Admin = () => {
   const [password, setPassword] = useState("");
 
   const checkPassword = () => {
-    if (password === "admin123") {
+    if (password === "merababa101#") {
       setIsVerified(true);
     } else {
       alert("Incorrect password!");
