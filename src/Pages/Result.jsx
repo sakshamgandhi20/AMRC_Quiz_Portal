@@ -41,7 +41,7 @@ const Result = () => {
   };
 
   const handleBack = () => {
-    navigate(-1); // Go to the previous page
+    navigate('/'); // Go to the previous page
   };
 
   return (
