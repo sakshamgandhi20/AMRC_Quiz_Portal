@@ -28,7 +28,7 @@ const Home = () => {
       <Carousel/>
 
       {/* Optional spiritual image or quote */}
-      <p className="text-2xl text-center max-w-2xl text-white text-shadow-lg/20 italic mb-6"
+      <p className="text-2xl text-center max-w-2xl text-blue-900 text-shadow-lg/20 italic mb-6"
         lang="hi"
         translate="no">
         {config?.Thought || "“The soul is the light of the world.” - Brahma Kumaris"}
