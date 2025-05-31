@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <footer className="mt-12 text-center text-gray-600">
-  <p className="mb-4">Om Shanti ✨ | AMRC Quiz Portal - Empowering Souls Through Gyan</p>
+  <p className="mb-4">Om Shanti ✨ | Avyakt Murli Readers - ज्ञान, योग, धारणा और सेवा के माध्यम से आत्माओं को सशक्त बनाना</p>
   <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-sm md:text-base">
     <a
       href="https://chat.whatsapp.com/KKvKD5o5DJI9d5chsmfa4Y"

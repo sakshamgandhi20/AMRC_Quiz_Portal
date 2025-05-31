@@ -20,7 +20,7 @@ const Home = () => {
       {/* <h1 className="text-4xl md:text-5xl font-bold text-center text-purple-700 mb-6">
         Welcome to AMRC Quiz Portal
       </h1> */}
-      <h1 className="text-xl md:text-5xl font-bold text-center text-purple-700 mb-6">
+      <h1 className="text-4xl md:text-5xl font-bold text-center text-purple-700 mb-6">
         Welcome to Avyakt Murli Readers Club Quiz 📖
       </h1>
 

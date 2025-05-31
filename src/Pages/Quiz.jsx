@@ -78,13 +78,13 @@ const Quiz = () => {
   return (
     <div className="min-h-screen bg-purple-50 flex flex-col items-center">
       <div className="w-full max-w-4xl bg-white rounded shadow-md">
-        <h1 className="text-2xl font-bold text-center text-purple-700 mb-4">Avyakt Murli Readers Quiz 📝 </h1>
+        <h1 className="text-4xl font-bold text-center text-purple-700 mb-2">Avyakt Murli Readers Quiz 📝 </h1>
         <>
           {/* Sticky timer and warning */}
           <div className="sticky top-0 z-20 bg-white py-2">
             {showForm && timeLeft <= 120 && (
               <div className="text-center text-yellow-600 mb-2 font-medium">
-                ⚠️ Hurry up! Less than 2 minute remaining.
+               ⚠️ जल्दी करें! 2 मिनट से भी कम समय बचा है।
               </div>
             )}
             <p className="text-center font-medium text-green-600 mb-2">
@@ -97,7 +97,7 @@ const Quiz = () => {
                 src={config.googleFormUrl}
                 title="Quiz Form"
                 width="100%"
-                height="700"
+                height="800"
                 frameBorder="0"
                 allowFullScreen
               ></iframe>
