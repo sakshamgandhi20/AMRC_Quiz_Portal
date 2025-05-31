@@ -51,7 +51,7 @@ const Leaderboard = () => {
         onClick={handleBack}
         className="absolute top-4 left-4 bg-gray-300 text-white px-1 py-1 rounded hover:bg-gray-400"
       >
-        Back
+       ⬅ Back
       </button>
 
       <h1 className="text-3xl font-bold text-center text-purple-700 mb-6">🏆 Leaderboard</h1>
