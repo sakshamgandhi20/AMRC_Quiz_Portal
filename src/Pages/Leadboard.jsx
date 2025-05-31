@@ -31,7 +31,7 @@ const Leaderboard = () => {
         setEntries(leaderboardData);
       } catch (err) {
         console.error(err);
-        setError("Failed to load leaderboard. Please try again later.");
+        setError("Failed to load leaderboard. Please try again later./लीडरबोर्ड लोड करने में विफल। कृपया बाद में पुनः प्रयास करें।");
       } finally {
         setLoading(false);
       }

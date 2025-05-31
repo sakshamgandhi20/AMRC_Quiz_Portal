@@ -246,15 +246,16 @@ const AdminForm = () => {
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Thought
             </label>
-            <input
+            <textarea
+              rows="4"
               type="text"
               name="Thought"
               placeholder="Daily thought or inspiration"
               value={formData.Thought}
               onChange={handleChange}
-              className="w-full text-gray-700 border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
+              className="w-full h-32 text-gray-700 border border-gray-300 rounded-lg p-2 resize-none focus:outline-none focus:ring-2 focus:ring-purple-500"
               required
-            />
+            ></textarea>
           </div>
 
           {/* Instructions */}

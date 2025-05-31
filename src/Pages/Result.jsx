@@ -28,10 +28,10 @@ const Result = () => {
       if (match) {
         setResultFound(true);
       } else {
-        setError("No result found. Please check your details.");
+        setError("No result found. Please check your details./ कोई परिणाम नहीं मिला। कृपया अपना विवरण जांचें।");
       }
     } catch (err) {
-      setError("Failed to fetch results. Please try again later.");
+      setError("Failed to fetch results. Please try again later./ परिणाम प्राप्त करने में विफल। कृपया बाद में पुनः प्रयास करें।");
     }
     setChecking(false);
   };
