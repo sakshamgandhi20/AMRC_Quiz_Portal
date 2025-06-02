@@ -16,10 +16,11 @@ const Leaderboard = () => {
       try {
         const response = await fetch(config.sheetUrl);
         const data = await response.json();
+        // console.log(data);
 
         const leaderboardData = data.map((entry) => {
-          const name = entry["𝗢𝗻𝗹𝘆 𝗡𝗮𝗺𝗲 : (No BK, No last name )  Write in English"] || "";
-          const location = entry["𝗣𝗟𝗔𝗖𝗘"] || "";
+          const name = entry["𝗢𝗻𝗹𝘆 𝗡𝗮𝗺𝗲: (No BK, no last name) Write in English."] || "";
+          const location = entry["𝗣lace"] || "";
           const rawScore = entry["Score"] || "0 / 50";
           const scoreMatch = rawScore.match(/^(\d+)\s*\/\s*\d+$/);
           const score = scoreMatch ? parseInt(scoreMatch[1]) : 0;

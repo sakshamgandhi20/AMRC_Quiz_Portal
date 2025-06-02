@@ -20,9 +20,11 @@ const Result = () => {
       const response = await fetch(config.sheetUrl);
       const data = await response.json();
       const match = data.find((entry) =>
-        (entry["𝗢𝗻𝗹𝘆 𝗡𝗮𝗺𝗲 : (No BK, No last name )  Write in English"] || "").toLowerCase() === name.toLowerCase() &&
-        entry["𝗠𝗼𝗯𝗶𝗹𝗲 𝗡𝘂𝗺𝗯𝗲𝗿 (Do not write 0 or +91 before your  number.  Eg: 9987654321✔️)"] === phone &&
-        (entry["𝗣𝗟𝗔𝗖𝗘"] || "").toLowerCase() === location.toLowerCase()
+        (entry["𝗢𝗻𝗹𝘆 𝗡𝗮𝗺𝗲: (No BK, no last name) Write in English."] || "").toLowerCase() === name.toLowerCase() 
+      &&
+        entry["𝗠𝗼𝗯𝗶𝗹𝗲 𝗡𝘂𝗺𝗯𝗲𝗿 (Do not write 0 or +91 before your  number.  Eg: 9987654321✔️)"] === phone
+         &&
+        (entry["𝗣lace"] || "").toLowerCase() === location.toLowerCase()
       );
 
       if (match) {

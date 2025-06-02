@@ -16,6 +16,10 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-100 to-sky-300 flex flex-col items-center justify-center p-4">
+      <audio autoPlay loop>
+        <source src="/audio.m4a" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       {/* Title */}
       {/* <h1 className="text-4xl md:text-5xl font-bold text-center text-purple-700 mb-6">
         Welcome to AMRC Quiz Portal
