@@ -183,10 +183,10 @@ const AdminForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-purple-50 py-10 px-4">
+    <div className="min-h-screen min-w-screen bg-purple-50 flex items-center justify-center">
       <form
         onSubmit={handleSubmit}
-        className="max-w-2xl mx-auto bg-white shadow-lg rounded-xl p-6 space-y-6"
+        className="max-w-4xl w-screen bg-white shadow-lg rounded-xl p-6 space-y-6"
       >
         <h2 className="text-3xl font-bold text-center text-purple-700">
           🛠 Admin Control Panel

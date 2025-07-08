@@ -14,9 +14,9 @@ const Admin = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
+    <div className="min-h-screen bg-gray-100 ">
     {!isVerified ? (
-      <div className="flex flex-col items-center justify-center min-h-screen">
+      <div className="flex flex-col items-center justify-center min-h-screen ">
         <div className="bg-white p-6 rounded shadow max-w-sm w-full">
           <h2 className="text-xl text-black font-bold mb-4 text-center">🔒 Admin Login</h2>
           <input
